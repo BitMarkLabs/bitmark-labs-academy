@@ -10,6 +10,7 @@
     "postinstall": "npx prisma generate"
   },
   "dependencies": {
+    "'": "file:../../../components/providers/toaster-provider",
     "@clerk/nextjs": "^5.0.3",
     "@hello-pangea/dnd": "^16.6.0",
     "@hookform/resolvers": "^3.3.4",
@@ -27,6 +28,8 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@tanstack/react-table": "^8.16.0",
     "@uploadthing/react": "^6.5.0",
+    "@vercel/speed-insights": "^1.0.10",
+    "autoprefixer": "^10.4.19",
     "axios": "^1.6.8",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -58,7 +61,7 @@
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "prisma": "^5.13.0",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5"
   }
 }
