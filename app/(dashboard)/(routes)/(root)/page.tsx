@@ -37,6 +37,7 @@ export default async function Dashboard() {
       <CoursesList
         items={[...coursesInProgress, ...completedCourses]}
       />
+
     </div>
   )
 }

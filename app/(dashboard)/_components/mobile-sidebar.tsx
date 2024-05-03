@@ -19,3 +19,5 @@ export const MobileSidebar = () => {
     </Sheet>
   )
 }
+
+// we can add the leaderboad section here and workshops

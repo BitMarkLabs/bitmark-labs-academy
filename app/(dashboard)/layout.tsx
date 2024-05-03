@@ -16,9 +16,12 @@ const DashboardLayout = ({
       </div>
       <main className="md:pl-56 pt-[80px] h-full">
         {children}
+        
       </main>
     </div>
    );
 }
  
 export default DashboardLayout;
+
+// here we can add the chat bot

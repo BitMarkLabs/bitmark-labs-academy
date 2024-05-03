@@ -51,3 +51,5 @@ export const SidebarRoutes = () => {
     </div>
   )
 }
+
+// here we can add the leaderboad section here and workshops

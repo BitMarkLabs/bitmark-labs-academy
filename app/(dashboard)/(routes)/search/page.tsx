@@ -51,3 +51,5 @@ const SearchPage = async ({
 }
  
 export default SearchPage;
+
+// here we can add the continue watchintg section
