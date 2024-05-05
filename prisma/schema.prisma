@@ -30,7 +30,6 @@ model Course {
   updatedAt DateTime @updatedAt
 
   @@index([categoryId])
-  // Removed the unsupported @@fulltext attribute
 }
 
 model Category {
