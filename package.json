@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate"
@@ -26,18 +26,24 @@
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@tanstack/react-table": "^8.16.0",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
     "@uploadthing/react": "^6.5.0",
     "autoprefixer": "^10.4.19",
     "axios": "^1.6.8",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^0.2.1",
+    "eslint": "8.49.0",
+    "eslint-config-next": "14.2.3",
     "lucide-react": "^0.376.0",
     "next": "14.2.3",
+    "postcss": "8.4.5",
     "query-string": "^9.0.0",
-    "react": "^18",
+    "react": "18.2.0",
     "react-confetti": "^6.1.0",
-    "react-dom": "^18",
+    "react-dom": "18.2.0",
     "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.51.3",
     "react-hot-toast": "^2.4.1",
@@ -46,20 +52,15 @@
     "recharts": "^2.12.6",
     "stripe": "^15.4.0",
     "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3",
     "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.2.2",
     "uploadthing": "^6.10.0",
     "zod": "^3.23.4",
     "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3",
-    "postcss": "^8",
-    "prisma": "^5.13.0",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5"
+    
+    "prisma": "^5.13.0"
   }
 }
