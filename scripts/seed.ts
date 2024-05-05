@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+const { PrismaClient } = require("@prisma/client");
 
 const database = new PrismaClient();
 
@@ -24,4 +24,7 @@ async function main() {
   }
 }
 
-main();
+main().catch((error) => {
+  console.error("Error running the script:", error);
+  process.exit(1);
+});
